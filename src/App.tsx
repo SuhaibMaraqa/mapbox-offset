@@ -1,4 +1,4 @@
-import ReactMap from "./components/ReactMap/ReactMap";
+import ReactMap from "components/ReactMap/ReactMap";
 
 function App() {
   return (

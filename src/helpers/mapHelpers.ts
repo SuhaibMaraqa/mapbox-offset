@@ -98,7 +98,6 @@ export const newLineLayerSpecification: LineLayerSpecification = {
   type: "line",
   source: "line-geojson-1",
   layout: {
-    // "line-z-offset": ["get", "elevation"],
     "line-z-offset": [
       "at",
       ["*", ["line-progress"], ["-", ["length", ["get", "elevation"]], 1]],

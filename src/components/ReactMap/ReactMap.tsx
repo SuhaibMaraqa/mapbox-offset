@@ -102,7 +102,7 @@ const ReactMap = () => {
       </Source>
 
       <Source id='line-geojson-1' type='geojson' lineMetrics={true} data={lineGeoJSON}>
-        <Layer {...newLineLayerSpecification} />
+        <Layer {...newLineLayerSpecification} beforeId='elevated-symbol' />
       </Source>
     </Map>
   );
